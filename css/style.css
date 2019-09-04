@@ -1,0 +1,160 @@
+/* start of header  */
+header {
+    background: #000;
+    color: #fff;
+    text-transform: capitalize;
+}
+header h1 {
+    font-family: 'Pacifico', cursive;
+    font-size: calc(26px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
+}
+header ul {
+    padding: 15px 0;
+    text-align: right;
+}
+header li {
+    display: inline;
+    padding: 10px;
+    font-size: 25px;
+}
+header a {
+    color: #fff;
+}
+@media (max-width: 425px) {
+    header h1 {
+        text-align: center;
+    }
+    header ul {
+        text-align: center;
+    }
+}
+@media (max-width: 767px) {
+   .twitter {
+       margin: 0 20px;
+   }
+}
+/* End of header  */
+/* Start of hero  */
+.hero {
+    background: #e7718b;
+    color: #fff;
+    padding: 60px 0;
+}
+.hero h2 {
+    text-transform: capitalize;
+    font-size: 35px;
+}
+.hero button {
+    background: linear-gradient(gray,black);
+    padding: 15px 10px;
+    margin-right: 15px;
+    color: #fff;
+    border-radius: 10px;
+    border-style: none;
+}
+.text {
+    position: absolute;
+    font-size: 20px;
+}
+.text p {
+    padding-bottom: 10px;
+}
+@media (max-width: 768px) {
+    .text {
+        font-size: 10px;
+        color: #000;
+        padding-left: 20px;
+    }       
+    .text h2 {
+        font-size: 20px;
+        padding: 5px;
+    }     
+}
+@media (max-width: 426px){
+    .text {
+        font-size: 10px;
+        color: #000;
+        padding-left: 15px;
+    }     
+    .text h2 {
+        font-size: 15px;
+        padding: 0px;
+    }     
+}
+@media (min-width: 993px) and (max-width: 1199px) {
+    .text {
+        position: static;
+    }
+}
+/* End of hero  */
+/* Start of main  */
+main h2 {
+    text-transform: capitalize;
+    font-size: 25px;
+}
+.about {
+    background: #f4f4f6;
+    border-bottom: 8px solid #fbe3e7;
+    padding: 30px 0;
+}
+.about p {
+    color: #aaa;
+}
+.products {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.clients h2 {
+    padding-left: 15px;
+}
+.clients p {
+    padding: 20px;
+    position: absolute;
+    top: 0;
+    color: #aaa;
+}
+@media (max-width: 321px) {
+    .clients {
+        font-size: 12px;
+    }
+}
+.clients span {
+    font-weight: bold;
+    text-transform: capitalize;
+    color: #000;
+}
+.commas img {
+    opacity: 0.1;
+}
+/* End of main  */
+/* Start of footer  */
+footer {
+    background: #333;
+    color: #fff;
+}
+footer p {
+    padding-top: 10px;
+}
+footer ul {
+    padding: 10px 0;
+    text-align: right;
+}
+@media (max-width: 426px) {
+    footer ul {
+        text-align: center;
+    }
+}
+footer li {
+    display: inline;
+    padding: 10px;
+    font-size: 25px;
+}
+footer a {
+    color: #fff;
+}
+@media (max-width: 321px) {
+    footer p {
+        font-size: 11px;
+    }
+}
+/* End of footer  */
