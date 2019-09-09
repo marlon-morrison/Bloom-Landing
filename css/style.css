@@ -59,25 +59,27 @@ header a {
 .text p {
     padding-bottom: 10px;
 }
-@media (max-width: 768px) {
+@media  (min-width: 528px) and (max-width: 992px) {
     .text {
-        font-size: 10px;
+        font-size: calc(15px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
         color: #000;
         padding-left: 20px;
+        margin-right: 200px;
     }       
     .text h2 {
         font-size: 20px;
         padding: 5px;
     }     
 }
-@media (max-width: 426px){
+@media (max-width: 528px) {
     .text {
-        font-size: 10px;
+        font-size: calc(15px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
         color: #000;
         padding-left: 15px;
+        padding-right: 0;
     }     
     .text h2 {
-        font-size: 15px;
+        font-size: 18px;
         padding: 0px;
     }     
 }
